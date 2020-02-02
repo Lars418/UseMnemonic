@@ -23,7 +23,6 @@ To show or hide the mnemonic keys use the `Alt` key (or `Option` on Mac).
 
 ### Syntax
  `UseMnemonic.run`  has the following optional arguments:
-
  
  
 | Argument | Description |
@@ -35,6 +34,7 @@ To show or hide the mnemonic keys use the `Alt` key (or `Option` on Mac).
 
 ### Actions 
 Executed when using the mnemonic key:
+
 | Element | Action |
 |---|---|
 | `button`, `a`,<br>`.UseMnemonic` | A click event using the `click` method. |
