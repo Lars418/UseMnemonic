@@ -10,7 +10,7 @@ var UseMnemonic = {};
 
 /**
  * Applies mnemonic to selected elements
- * @param selector the elements to select
+ * @param the elements to select
  */
 UseMnemonic.run = (selector="button, label, a, .UseMnemonic", controlChar="_") => {
     const elements = document.querySelectorAll(selector);
@@ -35,7 +35,7 @@ UseMnemonic.run = (selector="button, label, a, .UseMnemonic", controlChar="_") =
             if(e.key.toLowerCase() === charToUse.toLowerCase() && e.target === document.body) {
                 if(el.tagName === "LABEL") {
                     if(el.hasAttribute("for")) {
-                        document.getElementById(el.getAttribute("for")).click();
+                        document.getElementById(el.getAttribute("for")).focus();
                         return;
                     }
                     else if(el.querySelector("input") !== null) {
