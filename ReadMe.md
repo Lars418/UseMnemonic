@@ -35,10 +35,10 @@ To show or hide the mnemonic keys use the `Alt` key (or `Option` on Mac).
 
 ### Actions 
 Executed when using the mnemonic key:
-|Element|Action|
-|--|--|
-| `button`, `a`,<br>`.UseMnemonic` |A click event using the `click` method.|
-|`label`|If an `input` element is present: Input will be focused.<br>Otherwise a click event. |
+| Element | Action |
+|---|---|
+| `button`, `a`,<br>`.UseMnemonic` | A click event using the `click` method. |
+| `label` | If an `input` element is present: Input will be focused.<br>Otherwise a click event. |
 
 ### License
 UseMnemonic.js is licensed under the MIT license.
