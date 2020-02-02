@@ -23,10 +23,10 @@ To show or hide the mnemonic keys use the `Alt` key (or `Option` on Mac).
 
 ### Syntax
  `UseMnemonic.run`  has the following optional arguments:
-|Argument|Description|
+| Argument | Description |
 |--|--|
-| `selector` |A CSS selector that defines the elements that can contain mnemonic keys.<br><em>Default</em>: `button`, `label`, `a` and `.UseMnemonic`.|
-|`controlChar`|The control character that defines the mnemonic key.<br><em>Default</em>: `_` (it's recommened to either use `_` or `&`) |
+| `selector` | A CSS selector that defines the elements that can contain mnemonic keys.<br><em>Default</em>: `button`, `label`, `a` and `.UseMnemonic`.|
+| `controlChar` | The control character that defines the mnemonic key.<br><em>Default</em>: `_` (it's recommened to either use `_` or `&`) |
 
 
 
